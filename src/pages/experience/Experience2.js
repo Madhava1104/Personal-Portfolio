@@ -1,14 +1,14 @@
 import React, { Component } from "react";
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
+import Header from "../../components/header/Header2";
+import Footer from "../../components/footer/Footer2.js";
 import TopButton from "../../components/topButton/TopButton";
 import ExperienceAccordion from "../../containers/experienceAccordion/ExperienceAccordion.js";
 import "./Experience.css";
-import { experience } from "../../portfolio.js";
+import { experience } from "../../portfolio2.js";
 import { Fade } from "react-reveal";
 import ExperienceImg from "./ExperienceImg";
 
-class Experience extends Component {
+class Experience2 extends Component {
   render() {
     const theme = this.props.theme;
     return (
@@ -55,4 +55,4 @@ class Experience extends Component {
   }
 }
 
-export default Experience;
+export default Experience2;

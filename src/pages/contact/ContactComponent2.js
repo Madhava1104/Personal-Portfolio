@@ -1,21 +1,21 @@
 import React, { Component } from "react";
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
+import Header from "../../components/header/Header2.js";
+import Footer from "../../components/footer/Footer2.js";
 import TopButton from "../../components/topButton/TopButton";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
+import SocialMedia from "../../components/socialMedia/SocialMedia2.js";
 import Button from "../../components/button/Button";
 import BlogsImg from "./BlogsImg";
 import AddressImg from "./AddressImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
-import { greeting, contactPageData } from "../../portfolio.js";
+import { greeting, contactPageData } from "../../portfolio2.js";
 
 const ContactData = contactPageData.contactSection;
 const blogSection = contactPageData.blogSection;
 const addressSection = contactPageData.addressSection;
 const phoneSection = contactPageData.phoneSection;
 
-class Contact extends Component {
+class Contact2 extends Component {
   render() {
     const theme = this.props.theme;
     return (
@@ -156,4 +156,4 @@ class Contact extends Component {
   }
 }
 
-export default Contact;
+export default Contact2;

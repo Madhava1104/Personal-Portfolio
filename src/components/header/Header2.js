@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Header.css";
 import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
-import { greeting, settings } from "../../portfolio.js";
+import { greeting, settings } from "../../portfolio2.js";
 import SeoHeader from "../seoHeader/SeoHeader";
 
 const onMouseEnter = (event, color) => {
@@ -15,7 +15,7 @@ const onMouseOut = (event) => {
   el.style.backgroundColor = "transparent";
 };
 
-class Header extends Component {
+class Header2 extends Component {
   render() {
     const theme = this.props.theme;
     const link = settings.isSplash ? "/splash" : "home";
@@ -38,7 +38,7 @@ class Header extends Component {
             <ul className="menu" style={{ backgroundColor: theme.body }}>
               <li>
                 <NavLink
-                  to="/jayanth/home"
+                  to="/madhava/home"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
@@ -50,7 +50,7 @@ class Header extends Component {
               </li>
               <li>
                 <NavLink
-                  to="/jayanth/education"
+                  to="/madhava/education"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
@@ -62,7 +62,7 @@ class Header extends Component {
               </li>
               <li>
                 <NavLink
-                  to="/jayanth/experience"
+                  to="/madhava/experience"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
@@ -74,7 +74,7 @@ class Header extends Component {
               </li>
               <li>
                 <NavLink
-                  to="/jayanth/projects"
+                  to="/madhava/projects"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
@@ -86,7 +86,7 @@ class Header extends Component {
               </li>
               <li>
                 <NavLink
-                  to="/jayanth/opensource"
+                  to="/madhava/opensource"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
@@ -98,7 +98,7 @@ class Header extends Component {
               </li>
               <li>
                 <NavLink
-                  to="/jayanth/contact"
+                  to="/madhava/contact"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
@@ -115,4 +115,4 @@ class Header extends Component {
     );
   }
 }
-export default Header;
+export default Header2;
