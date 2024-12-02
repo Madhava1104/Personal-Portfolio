@@ -3,7 +3,7 @@ const settings = {
 };
 
 const seo = {
-  title: "Jayanth's Portfolio",
+  title: "Portfolio",
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
@@ -26,28 +26,27 @@ const greeting = {
 };
 
 const socialMediaLinks = [
-
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/JayanthSL",
     fontAwesomeIcon: "fa-github",
     backgroundColor: "#181717",
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
+    link: "https://www.linkedin.com/in/jayanth-s-25a1b125a/",
     fontAwesomeIcon: "fa-linkedin-in",
     backgroundColor: "#0077B5",
   },
   {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:jayanths8899@gmail.com",
     fontAwesomeIcon: "fa-google",
     backgroundColor: "#D14836",
   },
   {
     name: "X-Twitter",
-    link: "https://twitter.com/ashutosh_1919",
+    link: "https://x.com/Jayanth7gowda",
     fontAwesomeIcon: "fa-x-twitter",
     backgroundColor: "#000000",
   },
@@ -59,7 +58,7 @@ const socialMediaLinks = [
   // },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
+    link: "https://www.instagram.com/_._.jayanth.____.s._/",
     fontAwesomeIcon: "fa-instagram",
     backgroundColor: "#E4405F",
   },
@@ -272,38 +271,38 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
+      title: "Skill Show",
+      subtitle: "- Garden City University",
       logo_path: "stanford_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+        "https://drive.google.com/file/d/1vajiSN4Tx5CczUhn3506l2iQoBPqvCZ_/view",
       alt_name: "Stanford University",
       color_code: "#8C151599",
     },
     {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
+      title: "Operating Systems and You: Becoming a Power User",
+      subtitle: "- Google",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
+        "https://drive.google.com/file/d/1jny3qTuMrTQEJ30d8KKgyY-tWhSzi-0y/view",
       alt_name: "deeplearning.ai",
       color_code: "#00000099",
     },
     {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
+      title: "Using Python to Interact with the Operating System",
+      subtitle: "- Google",
       logo_path: "google_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
+        "https://drive.google.com/file/d/1gevF2dZqdfIxzshcVHLuYoTwzeG80p5s/view",
       alt_name: "Google",
       color_code: "#0C9D5899",
     },
     {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
+      title: "AI For Everyone",
+      subtitle: "- DeepLearning.AI",
       logo_path: "ibm_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
+        "https://www.coursera.org/account/accomplishments/verify/8GZCXKYA7BVF",
       alt_name: "IBM",
       color_code: "#1F70C199",
     },
@@ -553,7 +552,7 @@ const projectsHeader = {
 
 const publicationsHeader = {
   title: "Publications",
-  description: "Some of my published Articles, Blogs and Research.",
+  // description: "Some of my published Articles, Blogs and Research.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -561,24 +560,24 @@ const publications = {
   data: [
     {
       id: "neuro-symbolic-sudoku-solver",
-      name: "Neuro-Symbolic Sudoku Solver",
+      name: "Softech",
       createdAt: "2023-07-02T00:00:00Z",
-      description: "Paper published in KDD KiML 2023",
-      url: "https://arxiv.org/abs/2307.00653",
+      description: "Software Development Services",
+      url: "https://softechbengaluru.netlify.app/",
     },
     {
       id: "mdp-diffusion",
-      name: "MDP-Diffusion",
-      createdAt: "2023-09-19T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/mdp-diffusion/",
+      name: "WebGrid",
+      createdAt: "2024-10-19T00:00:00Z",
+      description: "Advance Web-Development",
+      url: "https://webgrid.netlify.app/",
     },
     {
       id: "consistency-models",
-      name: "Consistency Models",
+      name: "Nirvana Health Care",
       createdAt: "2023-10-12T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/consistency-models/",
+      description: "Health Care Project",
+      url: "https://nirvanatesting.netlify.app/",
     },
   ],
 };

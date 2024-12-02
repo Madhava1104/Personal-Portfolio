@@ -3,7 +3,7 @@ import Header from "../../components/header/Header2";
 import Footer from "../../components/footer/Footer2";
 import TopButton from "../../components/topButton/TopButton";
 import Educations from "../../containers/education/Educations";
-import Certifications from "../../containers/certifications/Certifications";
+import Certifications from "../../containers/certifications/Certifications2";
 import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites";
 import EducationImg from "./EducationImg";
 import { competitiveSites } from "../../portfolio2";
