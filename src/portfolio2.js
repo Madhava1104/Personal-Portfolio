@@ -20,9 +20,9 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+    "https://drive.google.com/file/d/1D1R5coeWR7s8mQpr4XBj81Auy2ty8KQ_/view?usp=sharing",
+  portfolio_repository: "https://github.com/madhava1104",
+  githubProfile: "https://github.com/madhava1104",
 };
 
 const socialMediaLinks = [
@@ -199,54 +199,54 @@ const skills = {
 // Education Page
 const competitiveSites = {
   competitiveSites: [
-    {
-      siteName: "LeetCode",
-      iconifyClassname: "simple-icons:leetcode",
-      style: {
-        color: "#F79F1B",
-      },
-      profileLink: "https://leetcode.com/layman_brother/",
-    },
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/layman_brother",
-    },
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/laymanbrother",
-    },
+    // {
+    //   siteName: "LeetCode",
+    //   iconifyClassname: "simple-icons:leetcode",
+    //   style: {
+    //     color: "#F79F1B",
+    //   },
+    //   profileLink: "https://leetcode.com/layman_brother/",
+    // },
+    // {
+    //   siteName: "HackerRank",
+    //   iconifyClassname: "simple-icons:hackerrank",
+    //   style: {
+    //     color: "#2EC866",
+    //   },
+    //   profileLink: "https://www.hackerrank.com/layman_brother",
+    // },
+    // {
+    //   siteName: "Codechef",
+    //   iconifyClassname: "simple-icons:codechef",
+    //   style: {
+    //     color: "#5B4638",
+    //   },
+    //   profileLink: "https://www.codechef.com/users/ashutosh_1919",
+    // },
+    // {
+    //   siteName: "Codeforces",
+    //   iconifyClassname: "simple-icons:codeforces",
+    //   style: {
+    //     color: "#1F8ACB",
+    //   },
+    //   profileLink: "http://codeforces.com/profile/layman_brother",
+    // },
+    // {
+    //   siteName: "Hackerearth",
+    //   iconifyClassname: "simple-icons:hackerearth",
+    //   style: {
+    //     color: "#323754",
+    //   },
+    //   profileLink: "https://www.hackerearth.com/@ashutosh391",
+    // },
+    // {
+    //   siteName: "Kaggle",
+    //   iconifyClassname: "simple-icons:kaggle",
+    //   style: {
+    //     color: "#20BEFF",
+    //   },
+    //   profileLink: "https://www.kaggle.com/laymanbrother",
+    // },
   ],
 };
 
@@ -273,7 +273,7 @@ const certifications = {
     {
       title: "Skill Show",
       subtitle: "- Garden City University",
-      logo_path: "stanford_logo.png",
+      logo_path: "GCU.jpg",
       certificate_link:
         "https://drive.google.com/file/d/19ctWVuW8rF2Q_nj40LILEcddB0T66zk9/view",
       alt_name: "Stanford University",
@@ -282,7 +282,7 @@ const certifications = {
     {
       title: "Blockchain",
       subtitle: "- Udemy",
-      logo_path: "deeplearning_ai_logo.png",
+      logo_path: "udemy_logo.jpg",
       certificate_link:
         "https://drive.google.com/file/d/1do9dSoEG-XoP5iDRzEHzTcgLyhhLTtG3/view",
       alt_name: "deeplearning.ai",
@@ -300,7 +300,7 @@ const certifications = {
     {
       title: "AI For Everyone",
       subtitle: "- DeepLearning.AI",
-      logo_path: "ibm_logo.png",
+      logo_path: "deeplearning.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/records/2M32ZVH8MGLY",
       alt_name: "IBM",
@@ -310,7 +310,7 @@ const certifications = {
       title:
         "TATA Group: Data Visualisation: Empowering Business with Effective Insights",
       subtitle: "- Forage",
-      logo_path: "microsoft_logo.png",
+      logo_path: "forage_logo.jpg",
       certificate_link:
         "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Tata/MyXvBcppsW2FkNYCX_Tata_qeykShe3f65NboLRb_1687273862760_completion_certificate.pdf",
       alt_name: "Microsoft",
@@ -319,7 +319,7 @@ const certifications = {
     {
       title: "Operating Systems and You: Becoming a Power User",
       subtitle: "- Google",
-      logo_path: "ibm_logo.png",
+      logo_path: "google_logo.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/records/7KB7GV4GZYUN",
       alt_name: "IBM",
@@ -328,7 +328,7 @@ const certifications = {
     {
       title: "Linux Security",
       subtitle: "- Udemy",
-      logo_path: "google_logo.png",
+      logo_path: "udemy_logo.jpg",
       certificate_link:
         "https://drive.google.com/file/d/1kg4SpJWCe_ElrypoknNe81PTzf6iTgsF/view",
       alt_name: "Google",
@@ -337,7 +337,7 @@ const certifications = {
     {
       title: "Teamwork Skills: Communicating Effectively in Groups",
       subtitle: "- University of Colorado Boulder",
-      logo_path: "deeplearning_ai_logo.png",
+      logo_path: "ucb_logo.jpg",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/records/41OKMRQGPY48",
       alt_name: "deeplearning.ai",
@@ -346,7 +346,7 @@ const certifications = {
     {
       title: "Linux Modules",
       subtitle: "- Udemy",
-      logo_path: "coursera_logo.png",
+      logo_path: "udemy_logo.jpg",
       certificate_link:
         "https://drive.google.com/file/d/13OlZ08cDpsTpnMVcauFMFov20JKnfJoz/view",
       alt_name: "Coursera",
@@ -355,7 +355,7 @@ const certifications = {
     {
       title: "Introduction to Cybersecurity Essentials",
       subtitle: "- IBM",
-      logo_path: "gcp_logo.png",
+      logo_path: "ibm_logo.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/verify/PWZ8MCXP2X6V",
       alt_name: "GCP",
@@ -365,21 +365,21 @@ const certifications = {
       title:
         "High Performance Collaboration: Leadership, Teamwork, and Negotiation",
       subtitle: "- Northwestern University",
-      logo_path: "nptel_logo.png",
+      logo_path: "nu_logo.jpg",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/verify/Y925TFSQQ0S0",
       alt_name: "NPTEL",
       color_code: "#FFBB0099",
     },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
+    // {
+    //   title: "Cloud Architecture",
+    //   subtitle: "- Qwiklabs",
+    //   logo_path: "gcp_logo.png",
+    //   certificate_link:
+    //     "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
+    //   alt_name: "GCP",
+    //   color_code: "#4285F499",
+    // },
   ],
 };
 
@@ -588,7 +588,7 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "animated_logo.svg",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
   },
@@ -596,7 +596,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
-    link: "https://blogs.ashutoshhathidara.com/",
+    // link: "https://blogs.ashutoshhathidara.com/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {

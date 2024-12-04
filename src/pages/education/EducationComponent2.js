@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Header from "../../components/header/Header2";
 import Footer from "../../components/footer/Footer2";
 import TopButton from "../../components/topButton/TopButton";
-import Educations from "../../containers/education/Educations";
+import Educations from "../../containers/education/Educations2";
 import Certifications from "../../containers/certifications/Certifications2";
 import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites";
 import EducationImg from "./EducationImg";
@@ -21,10 +21,6 @@ class Education2 extends Component {
           <Fade bottom duration={2000} distance="40px">
             <div className="heading-div">
               <div className="heading-img-div">
-                {/* <img
-									src={require("../../assets/images/education.svg")}
-									alt=""
-								/> */}
                 <EducationImg theme={theme} />
               </div>
               <div className="heading-text-div">
