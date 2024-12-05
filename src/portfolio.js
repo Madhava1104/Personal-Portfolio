@@ -277,7 +277,7 @@ const certifications = {
       certificate_link:
         "https://drive.google.com/file/d/1vajiSN4Tx5CczUhn3506l2iQoBPqvCZ_/view",
       alt_name: "Stanford University",
-      color_code: "#8C151599",
+      color_code: "#FF5733", // Unique orange-red
     },
     {
       title: "Operating Systems and You: Becoming a Power User",
@@ -286,16 +286,71 @@ const certifications = {
       certificate_link:
         "https://drive.google.com/file/d/1jny3qTuMrTQEJ30d8KKgyY-tWhSzi-0y/view",
       alt_name: "deeplearning.ai",
-      color_code: "#0C9D5899",
+      color_code: "#33FF57", // Unique green
+    },
+    {
+      title: "Complete Solidworks Beginners Course",
+      subtitle: "- Udemy",
+      logo_path: "udemy_logo.jpg",
+      certificate_link:
+        "https://drive.google.com/file/d/14gDI_GOiWsWDNsLwtSQVEiksPd_jVqsP/view?usp=sharing",
+      alt_name: "Solidworks Beginners",
+      color_code: "#3357FF", // Unique blue
+    },
+    {
+      title: "Introduction to Cybersecurity Essentials",
+      subtitle: "- IBM",
+      logo_path: "ibm_logo.png",
+      certificate_link:
+        "https://coursera.org/share/c94b5a5e50e802d5f748f1ed7f3d1d6c",
+      alt_name: "Introduction to Cybersecurity Essentials",
+      color_code: "#FF33A1", // Unique pink
+    },
+    {
+      title: "Google Cloud Big Data and Machine Learning Fundamentals",
+      subtitle: "- Google",
+      logo_path: "google_logo.png",
+      certificate_link:
+        "https://coursera.org/share/a5dcfdb6bd202b155a550332058b2c12",
+      alt_name: "Google Cloud Big Data",
+      color_code: "#33FFF3", // Unique teal
     },
     {
       title: "Using Python to Interact with the Operating System",
       subtitle: "- Google",
       logo_path: "google_logo.png",
       certificate_link:
-        "https://drive.google.com/file/d/1gevF2dZqdfIxzshcVHLuYoTwzeG80p5s/view",
+        "https://coursera.org/share/090be0bcab4f6003b1cefc57dfc9b877",
       alt_name: "Google",
-      color_code: "#0C9D5899",
+      color_code: "#FFC300", // Unique golden yellow
+    },
+    {
+      title: "AI(Artificial Intelligence)",
+      subtitle: "- NxtWave",
+      logo_path: "nxtwave.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1q6zTCMmQXksTu2veaH3WX71WcdiqThy_/view?usp=sharing",
+      alt_name: "NxtWave",
+      color_code: "#581845", // Unique deep purple
+    },
+    {
+      title:
+        "High Performance Collaboration: Leadership, Teamwork, and Negotiation",
+      subtitle: "- Northwestern University",
+      logo_path: "nu_logo.jpg",
+      certificate_link:
+        "https://coursera.org/share/dbf63f1dc31ac3bf22154030631806db",
+      alt_name: "High Performance Collaboration",
+      color_code: "#DAF7A6", // Unique pastel green
+    },
+    {
+      title: "Teamwork Skills: Communicating Effectively in Groups",
+      subtitle: "- University of Colorado Boulder",
+      logo_path: "ucb_logo.jpg",
+      certificate_link:
+        "https://coursera.org/share/6f8bf9ce5631fabbec50b12ebd66c01c",
+      alt_name: "Teamwork Skills",
+      color_code: "#900C3F", // Unique maroon
     },
     {
       title: "AI For Everyone",
@@ -304,8 +359,9 @@ const certifications = {
       certificate_link:
         "https://www.coursera.org/account/accomplishments/verify/8GZCXKYA7BVF",
       alt_name: "IBM",
-      color_code: "#1F70C199",
+      color_code: "#1F70C1", // Unique navy blue
     },
+
     // {
     //   title: "Big Data",
     //   subtitle: "- Kim Akers",
@@ -394,48 +450,15 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Machine Learning Engineer",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "June 2023 - Present",
-          location: "San Jose, CA, USA",
+          title: "Software Engineer",
+          company: "Dataphion",
+          company_url: "https://dataphion.com/",
+          logo_path: "dhp.jpeg",
+          duration: "November 2022 - Present",
+          location: "Bangalore",
           description:
-            "Improving ads ranking models on the core TikTok product. Experience working on modeling two-tower architectures like DeepFM, Wide & deep learning, etc. Working on Large Language Models (LLM) pretraining and Large Multi-modal Model (LMM) finetuning strategies.",
+            "Transform your business through technological innovation with our suite of specialized services. We offer a broad range of capabilities designed to solve complex challenges and accelerate digital transformation.",
           color: "#000000",
-        },
-        {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
-          description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
-          color: "#0879bf",
-        },
-        {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
-          description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-          color: "#9b1578",
-        },
-        {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
-          description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
         },
       ],
     },
@@ -443,101 +466,21 @@ const experience = {
       title: "Internships",
       experiences: [
         {
-          title: "Machine Learning Intern",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "May 2022 - Aug 2022",
-          location: "San Francisco, USA",
+          title: "Python Developer",
+          company: "Shadow Fox.",
+          company_url: "https://shadowfox.in/",
+          logo_path: "shadowfox.jpeg",
+          duration: "May 2024 - Aug 2024",
+          location: "Chennai",
           description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
+            "Founded on the belief that knowledge transforms lives, Shadow Fox emerged from a passion for education and innovation. Our journey is a commitment to turning aspirations into accomplishments in a unique digital learning adventure.",
           color: "#000000",
-        },
-        {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
-          description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          color: "#ee3c26",
-        },
-        {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
-          location: "Work From Home",
-          description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-          color: "#0071C5",
         },
       ],
     },
     {
       title: "Volunteerships",
-      experiences: [
-        {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-          color: "#4285F4",
-        },
-        {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-          color: "#D83B01",
-        },
-        {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-          color: "#000000",
-        },
-        {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
-          company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-          color: "#0C9D58",
-        },
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-          color: "#181717",
-        },
-      ],
+      experiences: [],
     },
   ],
 };
@@ -570,7 +513,7 @@ const publications = {
       name: "WebGrid",
       createdAt: "2024-10-19T00:00:00Z",
       description: "Advance Web-Development",
-      url: "https://webgrid.netlify.app/",
+      url: "https://webgrid.site/",
     },
     {
       id: "consistency-models",
